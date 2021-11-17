@@ -1,4 +1,4 @@
-package map;
+//package map;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -44,19 +44,19 @@ public class saomiao {
         }
     }
 	 public static String readFile(String pathname) {
-	        //·ÀÖ¹ÎÄ¼þ½¨Á¢»ò¶ÁÈ¡Ê§°Ü£¬ÓÃcatch²¶×½´íÎó²¢´òÓ¡£¬Ò²¿ÉÒÔthrow;
-	        //²»¹Ø±ÕÎÄ¼þ»áµ¼ÖÂ×ÊÔ´µÄÐ¹Â¶£¬¶ÁÐ´ÎÄ¼þ¶¼Í¬Àí
-	        //Java7µÄtry-with-resources¿ÉÒÔÓÅÑÅ¹Ø±ÕÎÄ¼þ£¬Òì³£Ê±×Ô¶¯¹Ø±ÕÎÄ¼þ£»ÏêÏ¸½â¶Áhttps://stackoverflow.com/a/12665271
+	        //é˜²æ­¢æ–‡ä»¶å»ºç«‹æˆ–è¯»å–å¤±è´¥ï¼Œç”¨catchæ•æ‰é”™è¯¯å¹¶æ‰“å°ï¼Œä¹Ÿå¯ä»¥throw;
+	        //ä¸å…³é—­æ–‡ä»¶ä¼šå¯¼è‡´èµ„æºçš„æ³„éœ²ï¼Œè¯»å†™æ–‡ä»¶éƒ½åŒç†
+	        //Java7çš„try-with-resourceså¯ä»¥ä¼˜é›…å…³é—­æ–‡ä»¶ï¼Œå¼‚å¸¸æ—¶è‡ªåŠ¨å…³é—­æ–‡ä»¶ï¼›è¯¦ç»†è§£è¯»https://stackoverflow.com/a/12665271
 	        try (FileReader reader = new FileReader(pathname);
-	             BufferedReader br = new BufferedReader(reader) // ½¨Á¢Ò»¸ö¶ÔÏó£¬Ëü°ÑÎÄ¼þÄÚÈÝ×ª³É¼ÆËã»úÄÜ¶Á¶®µÄÓïÑÔ
+	             BufferedReader br = new BufferedReader(reader) // å»ºç«‹ä¸€ä¸ªå¯¹è±¡ï¼Œå®ƒæŠŠæ–‡ä»¶å†…å®¹è½¬æˆè®¡ç®—æœºèƒ½è¯»æ‡‚çš„è¯­è¨€
 	        ) {
 	            String line;
-	            //ÍøÓÑÍÆ¼ö¸ü¼Ó¼ò½àµÄÐ´·¨
+	    
 	            while ((line = br.readLine()) != null) {
-	                // Ò»´Î¶ÁÈëÒ»ÐÐÊý¾Ý
+	                // ä¸€æ¬¡è¯»å…¥ä¸€è¡Œæ•°æ®
 
-	         	   if(line.indexOf("IPv4 µØÖ·")>-1) {
-	         	    ip+=line.substring(line.indexOf("IPv4 µØÖ·")+33,line.length()-5);
+	         	   if(line.indexOf("IPv4 åœ°å€")>-1) {
+	         	    ip+=line.substring(line.indexOf("IPv4 åœ°å€")+33,line.length()-5);
 	         	    break;
 	         	   }
 	         	  }
@@ -97,7 +97,7 @@ public class saomiao {
 
 	 public static void main(String[] args) throws InterruptedException, IOException{
 		 exeCmd("cmd.exe /c ipconfig");
-		 System.out.print("ÇëÊäÈëÄ¿±êµØÖ·£¨¸ñÊ½ÎªX:/XXX/XXX/£©");
+		 System.out.print("è¯·è¾“å…¥ç›®æ ‡åœ°å€ï¼ˆæ ¼å¼ä¸ºX:/XXX/XXX/ï¼‰");
 		 Scanner input = new Scanner(System.in);
 		 String location = input.next();
 		 exeCmd("cmd.exe /c ipconfig/all>"+location+"ip.txt");
