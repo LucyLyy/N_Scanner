@@ -1,8 +1,9 @@
 @echo off
-	rem 调用dos 使用jar包调用nmap并且扫描xml文件
-cd /桌面
-cd 网页
-java -jar D:\桌面\网页\saomiao.jar
+	rem 璋冪敤dos 浣跨敤jar鍖呰皟鐢╪map骞朵笖鎵弿xml鏂囦欢
+cd /妗岄潰
+cd 缃戦〉
+java -jar D:\妗岄潰\缃戦〉\saomiao.jar
 @pause
 
 
+##璋冪敤鐨勮矾寰勬牴鎹嚜宸辩殑璺緞閫夋嫨淇敼
