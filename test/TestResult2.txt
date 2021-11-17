@@ -1,0 +1,61 @@
+
+Windows IP 配置
+
+
+以太网适配器 以太网:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 本地连接* 1:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 本地连接* 10:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+以太网适配器 VMware Network Adapter VMnet1:
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+   本地链接 IPv6 地址. . . . . . . . : fe80::6996:9faf:**********
+   IPv4 地址 . . . . . . . . . . . . : 192.168.88.1
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : 
+
+以太网适配器 VMware Network Adapter VMnet8:
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+   本地链接 IPv6 地址. . . . . . . . : fe80::b5d9:1b:e66*********
+   IPv4 地址 . . . . . . . . . . . . : 192.168.207.1
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+   本地链接 IPv6 地址. . . . . . . . : fe80::8475:3b05:*********
+   IPv4 地址 . . . . . . . . . . . . : 10.3.83.106
+   子网掩码  . . . . . . . . . . . . : 255.255.192.0
+   默认网关. . . . . . . . . . . . . : 10.3.64.1
+
+以太网适配器 蓝牙网络连接:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+请输入目标地址（格式为X:/XXX/XXX/）
+C:\Users\HASEE\Desktop\开源
+
+ 192.168.8***
+
+protocol:tcp	portid:135	state:open	service:msrpc
+protocol:tcp	portid:139	state:open	service:netbios-ssn
+protocol:tcp	portid:443	state:open	service:https
+protocol:tcp	portid:445	state:open	service:microsoft-ds
+protocol:tcp	portid:902	state:open	service:iss-realsecure
+protocol:tcp	portid:912	state:open	service:apex-mesh
+protocol:tcp	portid:3580	state:open	service:nati-svrloc
+protocol:tcp	portid:8080	state:open	service:http-proxy
