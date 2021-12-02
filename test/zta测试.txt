@@ -1,0 +1,6 @@
+10.3.87.251
+
+protocol:tcp	portid:135	state:open	service:msrpc
+protocol:tcp	portid:139	state:open	service:netbios-ssn
+protocol:tcp	portid:445	state:open	service:microsoft-ds
+protocol:tcp	portid:6646	state:open	service:unknown
