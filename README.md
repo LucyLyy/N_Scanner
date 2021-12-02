@@ -14,4 +14,5 @@
 朱晓祺：资料、测试
 尹竹：前端
 周天爱：前端
-#![图片1](https://user-images.githubusercontent.com/91377753/144396465-ccd71686-4202-47c9-b4f0-8d36a2cd29f9.png)
+# Design
+![图片1](https://user-images.githubusercontent.com/91377753/144396465-ccd71686-4202-47c9-b4f0-8d36a2cd29f9.png)
