@@ -4,3 +4,4 @@
      一定程度上将过程自动化，可以节省使用者大部分时间。特别是对于初学者，以及生成的xml文件难以查看所需的内容时，使用本插件会非常便捷。
 # Design
 ![图片1](https://user-images.githubusercontent.com/91377753/144397602-2c1af99a-e2bd-48e8-abdf-0d621d3332df.png)
+![图片2](https://user-images.githubusercontent.com/91377753/144411233-b0f71f01-f224-4e7e-956b-932db37c2c17.png)
