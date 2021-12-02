@@ -8,7 +8,7 @@
 
 # 注意事项
 本项目源码放在主分支的source文件夹下 格式为.class和.java 浏览者可以在本地配置好的java环境下打开
-# contributers
+# contributors
 庞天琪：前端、后端、测试
 李媛媛：后端、测试
 朱晓祺：资料、测试
